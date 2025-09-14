@@ -1,5 +1,3 @@
-<div dir="rtl" align="right">
-
 # 🌐 Web Programming Course Project
 
 ## 🏫 Sharif University of Technology  
