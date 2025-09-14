@@ -9,11 +9,14 @@
 
 در این پروژه سعی شده است سایتی مشابه Google Form برای ساخت فرم‌های آنلاین پیاده‌سازی شود.  
 
-- **Front-end**: با استفاده از React  
-- **Back-end**: با Spring Boot (Java)  
-- **Database**: PostgreSQL  
-- **Containerization**: Docker  
+<ul dir="rtl">
+  <li><b>Front-end</b>: با استفاده از React</li>
+  <li><b>Back-end</b>: با Spring Boot (Java)</li>
+  <li><b>Database</b>: PostgreSQL</li>
+  <li><b>Containerization</b>: Docker</li>
+</ul>
 
 هدف این پروژه، ایجاد بستری برای طراحی و مدیریت فرم‌ها به صورت آنلاین است.
 
 </div>
+
