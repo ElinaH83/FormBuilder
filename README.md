@@ -1,31 +1,26 @@
 <div dir="rtl" align="right">
 
-# 🌐 پروژه درس برنامه‌سازی وب  
+# 🌐 Web Programming Course Project
 
-## 🏫 دانشگاه صنعتی شریف  
+## 🏫 Sharif University of Technology  
 
-## 👥 گردآورندگان  
-- الینا هژبری  
-- رایا رضایی  
-- فرنام فرقانی  
-- آرین ایروانی  
-- مهدی بهرامیان  
-- کیان تراکمه  
-- امیرمهدی محمودی  
-
+## 👥 Contributors  
+- Elina Hozhabri
+- Raya Rezaie
+- Farnam Forghani
+- Arian Iravani  
+- Mahdi Bahramian  
+- Kian Tarakemeh  
+- Amirmahdi mahmoudi
 ---
 
-## 📌 توضیحات پروژه  
+## 📌 Project Description  
 
-در این پروژه سعی شده است سایتی مشابه Google Form برای ساخت فرم‌های آنلاین پیاده‌سازی شود.  
+This project aims to develop a website similar to Google Forms, allowing users to create, manage, and share online forms. The platform provides an intuitive interface for designing custom forms and collecting responses efficiently.  
 
-<ul dir="rtl">
-  <li><b>Front-end</b>: با استفاده از React</li>
-  <li><b>Back-end</b>: با Spring Boot (Java)</li>
-  <li><b>Database</b>: PostgreSQL</li>
-  <li><b>Containerization</b>: Docker</li>
-</ul>
+## 🛠 Technologies Used  
 
-هدف این پروژه، ایجاد بستری برای طراحی و مدیریت فرم‌ها به صورت آنلاین است.  
-
-</div>
+- **Front-end**: React  
+- **Back-end**: Spring Boot (Java)  
+- **Database**: PostgreSQL  
+- **Containerization**: Docker  
