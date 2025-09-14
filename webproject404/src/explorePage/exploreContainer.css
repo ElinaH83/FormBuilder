@@ -1,0 +1,9 @@
+.exploreNavbar {
+    position: fixed;
+    height: 74px;
+    width: 100%;
+}
+
+.main {
+    padding-top: 70px;
+}

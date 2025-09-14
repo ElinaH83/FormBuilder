@@ -1,0 +1,21 @@
+@import '../App.css'; /* Reuse global styles if needed */
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+/* You can keep using App.css if this page inherits styles correctly */
+img {
+  /*border-radius: 8px;*/
+  /*margin-bottom: 1rem;*/
+}

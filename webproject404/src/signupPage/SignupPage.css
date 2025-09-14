@@ -1,0 +1,114 @@
+.signup-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: linear-gradient(135deg, #f5f7fa 0%, #e3eeff 100%);
+	padding: 24px;
+}
+
+.signup-card {
+	width: 100%;
+	max-width: 420px;
+	background: #ffffff;
+	border-radius: 16px;
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+	padding: 28px;
+}
+
+.signup-title {
+	margin: 0 0 12px 0;
+	font-size: 24px;
+	font-weight: 700;
+	color: #1f2937;
+	letter-spacing: -0.02em;
+}
+
+.signup-alert {
+	border-radius: 10px;
+	padding: 10px 12px;
+	font-size: 14px;
+	margin-bottom: 12px;
+}
+.signup-alert.error {
+	background: #fee2e2;
+	color: #7f1d1d;
+	border: 1px solid #fecaca;
+}
+.signup-alert.success {
+	background: #dcfce7;
+	color: #14532d;
+	border: 1px solid #bbf7d0;
+}
+
+.form-field {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 14px;
+}
+.form-field label {
+	font-size: 13px;
+	color: #374151;
+	margin-bottom: 6px;
+}
+
+.signup-input {
+	appearance: none;
+	width: 100%;
+	border-radius: 10px;
+	border: 1px solid #e5e7eb;
+	background: #f9fafb;
+	padding: 12px 14px;
+	font-size: 14px;
+	color: #111827;
+	transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+.signup-input:focus {
+	outline: none;
+	border-color: #6366f1;
+	box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.15);
+	background: #ffffff;
+}
+
+.field-hint {
+	font-size: 12px;
+	margin-top: 6px;
+}
+.field-hint.error {
+	color: #b91c1c;
+}
+
+.signup-button {
+	width: 100%;
+	border: none;
+	border-radius: 10px;
+	padding: 12px 14px;
+	font-size: 15px;
+	font-weight: 600;
+	background: linear-gradient(135deg, #6366f1, #8b5cf6);
+	color: white;
+	cursor: pointer;
+	transition: transform 0.06s ease, filter 0.2s ease, opacity 0.2s ease;
+}
+.signup-button:hover {
+	filter: brightness(1.05);
+	transform: translateY(-1px);
+}
+.signup-button:active {
+	transform: translateY(0);
+}
+.signup-button:disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+}
+
+@media (max-width: 480px) {
+	.signup-card {
+		padding: 22px;
+	}
+	.signup-title {
+		font-size: 22px;
+	}
+}
+
+

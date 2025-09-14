@@ -1,0 +1,10 @@
+.sort-options div {
+  cursor: pointer;
+  padding: 5px 10px;
+}
+.sort-options div:hover {
+  background-color: #f0f0f0;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
